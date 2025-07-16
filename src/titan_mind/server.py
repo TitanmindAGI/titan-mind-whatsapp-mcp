@@ -65,7 +65,11 @@ def whatsapp_and_server_workflow_resource() -> str:
     """WhatsApp messaging workflow guide, and server tools return info"""
     return _titan_mind_product_whatsapp_channel_messaging_functionality_and_workflow + _tool_return_object_description
 
-
+"""
+Guidelines to follow:
+1. Keep the tool names char count max to 51. Since some models do not support MCP, and rely on the function calling.
+So tool_name + mcp_name needs to be 64, making the mcp_name to have max 13 char count.
+"""
 @mcp.tool()
 def get_conversations_from_the_last_day(
         phone_without_dialer_code: str = "None"
@@ -227,7 +231,7 @@ def get_the_templates(
 
 
 @mcp.tool()
-def send_a_message_to_multiple_numbers_using_approved_template(
+def send_msg_to_multiple_num_using_approved_template(
         template_id: int, contacts: list[Contact],
 ) -> Optional[Dict[str, Any]]:
     ("""
