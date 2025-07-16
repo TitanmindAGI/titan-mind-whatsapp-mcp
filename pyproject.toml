@@ -9,7 +9,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "titanmind-whatsapp-mcp"
-version = "0.1.6"
+version = "0.1.8"
 description = "MCP server for WhatsApp functionality via Titanmind"
 authors = [
     {name = "Shubhashish", email = "shubhashish@salarybox.in"}
