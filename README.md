@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/titanmindagi-titanmind-whatsapp-mcp-badge.png)](https://mseep.ai/app/titanmindagi-titanmind-whatsapp-mcp)
+
 ## Titanmind WhatsApp MCP
 
 A WhatsApp marketing and messaging tool MCP (Model Control Protocol) service using [Titanmind](https://www.titanmind.so/). Handles free-form messages (24hr window) and template workflows automatically
